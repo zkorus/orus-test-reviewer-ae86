@@ -1,0 +1,7 @@
+{
+  "name": "orus-test-reviewer-ae86",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}

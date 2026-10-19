@@ -1,0 +1,16 @@
+v: 0
+orus: 0.0.0
+gate: node --test
+test_targets:
+  - name: lib
+    language: javascript
+    path: .
+    test: node --test
+roles:
+  dev: { model: haiku }
+  reviewer: { model: haiku }
+budgets:
+  per_role:
+    dev: { minutes_per_run: 20 }
+max_cost_usd: 1
+max_adrs: 2
